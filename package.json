@@ -1,0 +1,24 @@
+{
+  "name": "campus-share",
+  "version": "1.0.0",
+  "description": "Campus Share — Production-Grade College Marketplace & Rental Platform",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "start:server": "npm --prefix server start",
+    "test": "npm --prefix server test"
+  },
+  "keywords": [
+    "campus-share",
+    "marketplace",
+    "rental",
+    "mern",
+    "ecommerce",
+    "college"
+  ],
+  "author": "Campus Share Team",
+  "license": "ISC"
+}
